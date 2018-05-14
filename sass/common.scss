@@ -1,0 +1,469 @@
+//footer
+body {
+    background: #efefef;
+}
+
+.footer {
+    position: fixed;
+    height: 48px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 !important;
+    .col-xs-5ths {
+        width: 20%;
+        float: left;
+        padding: 0 4px;
+        a {
+            color: #666;
+        }
+        .active {
+            color: #ff4e63;
+        }
+    }
+}
+
+.container {
+    padding: 0;
+    .sub_nav {
+        background: #fff;
+        height: 45px;
+        border-bottom: 1px solid #e5e5e5;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        .nav-cell {
+            width: 14%;
+            height: 44px;
+            line-height: 44px;
+            font-size: 15px;
+            float: left;
+            a {
+                color: #888;
+            }
+            .active {
+                color: #ff4e63;
+            }
+        }
+    }
+}
+
+.nav_search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    background: #fff;
+    height: 44px;
+    padding: 0 15px;
+    z-index: 1000;
+    box-shadow: 0 0 20px #ddd;
+    border-left: 1px solid #f2f2f2;
+    overflow: hidden;
+}
+
+.row {
+    margin: 0;
+}
+
+.banner {
+    min-width: 375px;
+    min-height: 209px;
+    .Slide1 {
+        background: url(../img/banner1.png);
+        background-size: cover;
+    }
+    .Slide2 {
+        background: url(../img/banner2.jpg);
+        background-size: cover;
+    }
+    .Slide3 {
+        background: url(../img/banner3.jpg);
+        background-size: cover;
+    }
+    .Slide4 {
+        background: url(../img/banner4.jpg);
+        background-size: cover;
+    }
+    .Slide5 {
+        background: url(../img/banner5.jpg);
+        background-size: cover;
+    }
+    .Slide6 {
+        background: url(../img/bannner6.jpg);
+        background-size: cover;
+    }
+}
+
+.box-banner {
+    font-size: 12px;
+    text-align: center;
+    .icon-img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        width: 37px;
+        height: 37px;
+    }
+    .icon-img1 {
+        background: url(../img/flag.png);
+        background-size: cover;
+    }
+    .icon-img2 {
+        background: url(../img/star.png);
+        background-size: cover;
+    }
+    .icon-img3 {
+        background: url(../img/shand.png);
+        background-size: cover;
+    }
+    .icon-img4 {
+        background: url(../img/feiji.png);
+        background-size: cover;
+    }
+}
+
+.share-list {
+    h5 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #999;
+        margin: 0 0 8px 0;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+        max-height: 66px;
+        overflow: hidden;
+        font-weight: 400;
+    }
+    .item {
+        border-bottom: 1px solid #eee;
+        padding: 12px 10px;
+        background: #fff;
+        margin: 0 0 6px 0;
+        .col-xs-4 {
+            padding: 0 4px;
+        }
+    }
+}
+
+.tips_tag {
+    display: inline-block;
+    padding: 0 5px 0 3px;
+    border-radius: 0 9px 9px 0;
+    font-size: 10px;
+    color: #fff !important;
+    line-height: 18px;
+    white-space: nowrap;
+    background: -webkit-linear-gradient(left, #f48447, #e0282d);
+}
+
+.fanli-banner {
+    background: url(../img/fanli-banner.jpg) center;
+    background-size: cover;
+}
+
+.tuan-list {
+    .item {
+        padding: 0 4px;
+        .pic {
+            .free_ship_tips {
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                background: #de3c5b;
+                border-radius: 100%;
+                color: #fff;
+                font-size: 12px;
+                height: 32px;
+                width: 32px;
+                line-height: 32px;
+                text-align: center;
+            }
+        }
+        .caption {
+            margin-bottom: 8px;
+            .title {
+                height: 40px;
+                line-height: 19px;
+                overflow: hidden;
+                a {}
+            }
+        }
+        h5 {
+            margin: 8px 0 3px 0;
+            color: #999;
+            height: 20px;
+            overflow: hidden;
+        }
+        h6 {
+            font-size: 14px;
+            margin: 6px 0;
+            color: #999;
+            height: 20px;
+            line-height: 20px;
+            overflow: hidden;
+        }
+    }
+}
+
+.pic {
+    img {
+        width: 100%;
+    }
+}
+
+.fc-999 {
+    color: #999999;
+}
+
+.flash_price {
+    color: #ff4c66;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.daren-price {
+    background: #666;
+    border-radius: 8px;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 10px;
+    white-space: nowrap;
+    display: inline;
+}
+
+.panel {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+    .panel-heading {
+        background: #fff;
+        color: #666;
+    }
+    .list-group {
+        .list-group-item {
+            .row {
+                .col-xs-8 {
+                    p {
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+    .panel-body {
+        .text-left {
+            p {
+                margin-bottom: 6px;
+            }
+        }
+    }
+}
+
+.del-img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/del-img.png);
+    background-size: cover;
+}
+
+.mini-head {
+    padding: 40px 10px;
+    background: #fe4c66;
+    color: #fff;
+    h4 {
+        margin-bottom: 6px;
+    }
+}
+
+.marquee_container {
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+    line-height: 28px;
+    .marquee_left {
+        .laba-icon {
+            display: block;
+            width: 28px;
+            height: 28px;
+        }
+    }
+    .marquee_content {
+        height: 28px;
+        overflow: hidden;
+        ul {
+            position: relative;
+            animation: moveUp 12s 0.1s infinite;
+            -webkit-animation: moveUp 12s 0.1s infinite;
+            li {
+                a {
+                    color: #666;
+                }
+            }
+        }
+        @keyframes moveUp {
+            0% {
+                top: 0px;
+            }
+            18% {
+                top: 0px;
+            }
+            20% {
+                top: -28px;
+            }
+            38% {
+                top: -28px;
+            }
+            40% {
+                top: -56px;
+            }
+            58% {
+                top: -56px;
+            }
+            60% {
+                top: -84px;
+            }
+            78% {
+                top: -84px;
+            }
+            80% {
+                top: -112px;
+            }
+            98% {
+                top: -112px;
+            }
+        }
+    }
+}
+
+.sku_info {
+    .p10 {
+        .title {
+            font-size: 16px;
+            line-height: 25px;
+            color: #666;           
+        }
+    }
+}
+
+.footer_buy {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    height: 48px;
+    line-height: 48px;
+}
+
+.btn-danger {
+    text-decoration: none;
+    background-color: #c9302c;
+}
+.text-border-green{
+    border: 1px solid #63b158 !important;
+    color: #63b158 !important;
+    padding: 0 5px;
+}
+.top6 {
+    margin-top: 6px;
+}
+.top8{
+    margin-top: 8px;
+}
+.fs16{
+    font-size: 16px;
+}
+.active {
+    color: #ff4e63;
+}
+
+.fc-red {
+    color: #ff4c66;
+}
+
+.fc-green {
+    color: #39ab1f;
+}
+
+.fc-green2 {
+    color: #01b89e;
+}
+
+.fc-gold {
+    color: #f7f70b;
+}
+
+.fc-pink {
+    color: #ee84d1;
+}
+
+.fc-qh {
+    color: #ecec4e;
+}
+
+.fc-yellow {
+    color: yellow;
+}
+
+.fc-fff {
+    color: #fff;
+}
+
+.fc-666 {
+    color: #666;
+}
+
+.pad04 {
+    padding: 0 4px;
+}
+
+.bg-w {
+    background: #fff;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+.article{
+    padding: 12px;
+}
+.m-top10 {
+    margin-top: 10px;
+}
+.top8{
+    margin-top:8px ;
+}
+.m-bot10 {
+    margin-bottom: 10px;
+}
+
+.m-10 {
+    margin: 10px 0;
+}
+
+.b-b-none {
+    border-bottom: none;
+}
+
+.m-bot50 {
+    margin-bottom: 50px;
+}
+
+.text-cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
